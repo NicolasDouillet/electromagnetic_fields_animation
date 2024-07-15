@@ -2,7 +2,7 @@ function [] = EB_field_propagation_animation()
 % EB_dynamic_fields_animation : function to create
 % an animation of a dynamic electromagnetic field.
 %
-% Author & support nicolas.douillet (at) free.fr, 2007-2021.
+% Author : nicolas.douillet9 (at) gmail.com, 2007-2024.
 
 
 step = 0.05*pi;       % the signal step / resolution
@@ -68,9 +68,9 @@ end
 end % EB_dynamic_fields_animation
 
 
-function [signal] = EB_field(nperiod, step, phase)
+function signal = EB_field(nperiod, step, phase)
 %
-% Author & support nicolas.douillet (at) free.fr, 2007-2021.
+% Author nicolas.douillet9 (at) gmail.com, 2007-2024.
 
 
 t = -nperiod*2*pi:step:nperiod*2*pi;
